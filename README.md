@@ -7,7 +7,6 @@ A mobile-first wedding site built with React and Vite. It opens like an invitati
 npm install
 npm run dev
 ```
-Open the link it prints (usually http://localhost:5173).
 
 ## Change the details
 Edit **`src/data/weddingData.js`**. Everything comes from that file:
