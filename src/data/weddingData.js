@@ -37,7 +37,7 @@ export const weddingDayShort = shortDay(WEDDING_DATE);    // 6 March 2027
 export const weddingWeekday = parts(WEDDING_DATE).dow;    // Saturday
 export const weddingDotted = WEDDING_DATE.split("-").reverse().join(".");
 export const rsvpDeadline = shortDay(RSVP_BY_DATE);
-export const weddingTarget = `${WEDDING_DATE}T11:00:00+05:30`; // countdown ends at the service
+export const weddingTarget = `${WEDDING_DATE}T10:00:00+05:30`; // countdown ends at the service
 
 export const place = "Vijayawada, Andhra Pradesh";
 
@@ -70,12 +70,12 @@ export const events = {
     key: "ceremony",
     title: "Holy Matrimony",
     day: weddingDayLong,
-    time: "11:00 AM",
-    until: "about 12:30 PM",
+    time: "10:00 AM",
+    until: "about 11:30 AM",
     venue: `${venues.ceremony.name}, Gunadala, Vijayawada`,
     quote: "Join us as we exchange our vows before God, our families and friends.",
-    icsStart: `${WEDDING_DATE}T11:00:00+05:30`,
-    icsEnd: `${WEDDING_DATE}T12:30:00+05:30`,
+    icsStart: `${WEDDING_DATE}T10:00:00+05:30`,
+    icsEnd: `${WEDDING_DATE}T11:30:00+05:30`,
   },
   reception: {
     key: "reception",
@@ -89,7 +89,6 @@ export const events = {
     icsEnd: `${WEDDING_DATE}T22:00:00+05:30`,
   },
 };
-
 // ── Our story (sample copy; replace with the couple's own) ──
 export const story = [
   {
